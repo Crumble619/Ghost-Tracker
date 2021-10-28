@@ -11,6 +11,8 @@
 		3B00F0632729EA16007AD42E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00F0622729EA16007AD42E /* ContentView.swift */; };
 		3B00F0652729EA17007AD42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B00F0642729EA17007AD42E /* Assets.xcassets */; };
 		3B00F0682729EA17007AD42E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B00F0672729EA17007AD42E /* Preview Assets.xcassets */; };
+		3B00F06F2729FC17007AD42E /* BodyTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00F06E2729FC17007AD42E /* BodyTracking.swift */; };
+		3B00F071272A503E007AD42E /* MagnetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00F070272A503E007AD42E /* MagnetManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3B00F0622729EA16007AD42E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B00F0642729EA17007AD42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B00F0672729EA17007AD42E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B00F06E2729FC17007AD42E /* BodyTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTracking.swift; sourceTree = "<group>"; };
+		3B00F070272A503E007AD42E /* MagnetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				3B00F0602729EA16007AD42E /* Ghost_TrackerApp.swift */,
+				3B00F070272A503E007AD42E /* MagnetManager.swift */,
 				3B00F0622729EA16007AD42E /* ContentView.swift */,
+				3B00F06E2729FC17007AD42E /* BodyTracking.swift */,
 				3B00F0642729EA17007AD42E /* Assets.xcassets */,
 				3B00F0662729EA17007AD42E /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B00F0632729EA16007AD42E /* ContentView.swift in Sources */,
+				3B00F071272A503E007AD42E /* MagnetManager.swift in Sources */,
+				3B00F06F2729FC17007AD42E /* BodyTracking.swift in Sources */,
 				3B00F0612729EA16007AD42E /* Ghost_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +280,7 @@
 				DEVELOPMENT_TEAM = 6FCDXPPZ3P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires use of your camera.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +310,7 @@
 				DEVELOPMENT_TEAM = 6FCDXPPZ3P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires use of your camera.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

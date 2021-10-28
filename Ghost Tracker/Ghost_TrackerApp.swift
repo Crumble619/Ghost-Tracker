@@ -11,7 +11,7 @@ import SwiftUI
 struct Ghost_TrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(motion: MagnetManager())
         }
     }
 }
