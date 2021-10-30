@@ -23,6 +23,7 @@
 		3B00F0672729EA17007AD42E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B00F06E2729FC17007AD42E /* BodyTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTracking.swift; sourceTree = "<group>"; };
 		3B00F070272A503E007AD42E /* MagnetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetManager.swift; sourceTree = "<group>"; };
+		3B2EE745272D9B0B00734F05 /* Ghost-Tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Ghost-Tracker-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		3B00F05F2729EA16007AD42E /* Ghost Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				3B2EE745272D9B0B00734F05 /* Ghost-Tracker-Info.plist */,
 				3B00F0602729EA16007AD42E /* Ghost_TrackerApp.swift */,
 				3B00F070272A503E007AD42E /* MagnetManager.swift */,
 				3B00F0622729EA16007AD42E /* ContentView.swift */,
@@ -280,12 +282,14 @@
 				DEVELOPMENT_TEAM = 6FCDXPPZ3P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ghost-Tracker-Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires use of your camera.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,12 +314,14 @@
 				DEVELOPMENT_TEAM = 6FCDXPPZ3P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ghost-Tracker-Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires use of your camera.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -19,12 +19,12 @@ class BodySkeleton: Entity {
         //ARSkeletonDefinition.defaultBody3D.jointNames
         
         for jointName in jointNames {
-            var jointRadius: Float = 0.03
-            var jointColor: UIColor = .green
-            
-            let jointEntity = makeJoint(radius: jointRadius, color: jointColor)
-            joints[jointName] = jointEntity
-            self.addChild(jointEntity)
+                let jointRadius: Float = 0.03
+                let jointColor: UIColor = .green
+                
+                let jointEntity = makeJoint(radius: jointRadius, color: jointColor)
+                joints[jointName] = jointEntity
+                self.addChild(jointEntity)
         }
         
         self.update(with: bodyAnchor)
@@ -45,7 +45,7 @@ class BodySkeleton: Entity {
     func update(with bodyAnchor: ARBodyAnchor) {
         let rootPosition = simd_make_float3(bodyAnchor.transform.columns.3)
         
-        for jointName in ARSkeletonDefinition.defaultBody3D.jointNames {
+        for jointName in jointNames {
             if let jointEntity = joints[jointName], let jointTransform = bodyAnchor.skeleton.modelTransform(for: ARSkeleton.JointName(rawValue: jointName)) {
                 let jointOffset = simd_make_float3(jointTransform.columns.3)
                 jointEntity.position = rootPosition + jointOffset
